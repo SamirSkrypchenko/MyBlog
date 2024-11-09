@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1><a href="#">Logo</a></h1>
+                </div>
+                <nav class="col">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house"></i>Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                Кабинет
+                            </a>
+                            <ul id="ul_menu">
+                                <li><a href="#">Админ панель</a></li>
+                                <li><a href="#">Выход</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="registration_container container">
+        <form class="row justify-content-center" method="post" action="registration.html">
+            <div class="mb-4 col-md-4 col-12">
+                <h2>Регистрация</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-md-4 col-12">
+                <label for="formGroupExampleInput" class="form-label">Логин</label>
+                <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-md-4 col-12">
+              <label for="exampleInputEmail1" class="form-label">Электронная почта</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-md-4 col-12">
+              <label for="exampleInputPassword1" class="form-label">Пароль</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="w-100"></div>
+            <div class="mb-3 col-md-4 col-12">
+                <label for="exampleInputPassword1" class="form-label">Подтвердите пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword2">
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-4 col-12">
+                <button type="submit" class="btn btn-secondary">Зарегестрироваться</button>
+                <a href="authorization.html">Войти</a>
+            </div>
+          </form>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="footer_content row">
+          <div class="section col-md-4 col-12">
+            <h3>Мой блог</h3>
+            <p id="my_blog_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente facere nesciunt, eaque exercitationem harum aperiam. Tempora itaque praesentium quibusdam quod, sed assumenda? Odio, facilis esse quaerat adipisci quos ratione?</p>
+            <div class="phone_number">
+              <i class="fa-solid fa-phone"></i> 555-444-222
+            </div>
+            <div class="email">
+              <i class="fa-solid fa-envelope"></i> info@myblog.com
+            </div>
+            <div class="social_links">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="section col-md-4 col-12">
+            <h3>Quick Links</h3>
+            <ul id="quick_links_list">
+              <li><a href="#">События</a></li>
+              <li><a href="#">Команда</a></li>
+              <li><a href="#">Упражнения</a></li>
+              <li><a href="#">Что-то ещё</a></li>
+            </ul>
+          </div>
+          <div class="section col-md-4 col-12">
+            <h3>Контакты</h3>
+            <form action="/" method="post">
+              <input type="email" name="email" class="contact_input" placeholder="Введите ваш email...">
+              <textarea name="message" id="msg_area" class="contact_input" rows="4" cols="40" placeholder="Введите ваше сообщение..."></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <i class="fa-regular fa-copyright"></i> myblog.com | Designed by Samir Skrypchenko
+    </div>
+  </body>
+  <!-- FOOTER END -->
+  <script src="https://kit.fontawesome.com/ff9e752076.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

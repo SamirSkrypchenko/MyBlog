@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Blog</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h1><a href="#">Logo</a></h1>
+                </div>
+                <nav class="col">
+                    <ul>
+                        <li><a href="index.html"><i class="fa-solid fa-house"></i>Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                Кабинет
+                            </a>
+                            <ul id="ul_menu">
+                                <li><a href="#">Админ панель</a></li>
+                                <li><a href="#">Выход</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <div class="container" id="main_container">
+      <div class="main_content">
+        <div class="row">
+          <div class="col-9">
+            <h2 id="name_single_post">Последние публикации</h2>
+            <div class="single_post row">
+              <div class="img_block col-12">
+                <img src="images/road.webp" alt="GOT">
+              </div>
+              <div class="single_post_text col-12">
+                <div class="info_post_block">
+                  <i class="fa-solid fa-user">Автор</i>
+                  <i class="fa-regular fa-calendar"> 2018-11-11</i> 
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente eos aliquam. Ullam veniam natus suscipit, nam totam optio assumenda voluptatum! Repellendus, laudantium maiores. Omnis quia repellat voluptatibus cupiditate eveniet!</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas fuga facere cupiditate perspiciatis perferendis pariatur blanditiis exercitationem quae ut impedit ipsam quibusdam commodi, magni dolorum accusantium facilis, officiis reiciendis magnam!
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic illum, tempore cumque error totam alias earum provident quis minima ipsam, iure molestias iste a perspiciatis assumenda. Explicabo veritatis ad quisquam!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate facere alias deleniti? Blanditiis itaque vel, eligendi repellat commodi, sit sequi eos numquam doloribus corrupti, modi facilis iure natus soluta?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur praesentium perspiciatis repudiandae deleniti quibusdam. Suscipit odio commodi ducimus repellat aut! Consequuntur quaerat maxime debitis illum esse distinctio velit perspiciatis ad.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, totam vel? Officia repellat magnam nam quis optio, voluptatem quod minima explicabo doloribus obcaecati? Dicta facere eius fugit voluptate? Molestiae, beatae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="sidebar">
+              <div class="section search">
+                <h3>Поиск</h3>
+                <form action="/" method="post">
+                  <input type="text" name="search-term" class="text-input" placeholder="Введите искомое слово...">
+                </form>
+              </div>
+              <div class="section topics">
+                <h2>Категории</h2>
+                <ul>
+                  <li><a href="#">Программирование</a></li>
+                  <li><a href="#">Кино</a></li>
+                  <li><a href="#">Книги</a></li>
+                  <li><a href="#">Саморазвитие</a></li>
+                  <li><a href="#">Наука</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="footer_content row">
+          <div class="section col-md-4 col-12">
+            <h3>Мой блог</h3>
+            <p id="my_blog_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sapiente facere nesciunt, eaque exercitationem harum aperiam. Tempora itaque praesentium quibusdam quod, sed assumenda? Odio, facilis esse quaerat adipisci quos ratione?</p>
+            <div class="phone_number">
+              <i class="fa-solid fa-phone"></i> 555-444-222
+            </div>
+            <div class="email">
+              <i class="fa-solid fa-envelope"></i> info@myblog.com
+            </div>
+            <div class="social_links">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="section col-md-4 col-12">
+            <h3>Quick Links</h3>
+            <ul id="quick_links_list">
+              <li><a href="#">События</a></li>
+              <li><a href="#">Команда</a></li>
+              <li><a href="#">Упражнения</a></li>
+              <li><a href="#">Что-то ещё</a></li>
+            </ul>
+          </div>
+          <div class="section col-md-4 col-12">
+            <h3>Контакты</h3>
+            <form action="/" method="post">
+              <input type="email" name="email" class="contact_input" placeholder="Введите ваш email...">
+              <textarea name="message" id="msg_area" class="contact_input" rows="4" cols="40" placeholder="Введите ваше сообщение..."></textarea>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <i class="fa-regular fa-copyright"></i> myblog.com | Designed by Samir Skrypchenko
+    </div>
+  </body>
+  <!-- FOOTER END -->
+  <script src="https://kit.fontawesome.com/ff9e752076.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
